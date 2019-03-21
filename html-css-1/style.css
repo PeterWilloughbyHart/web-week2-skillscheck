@@ -1,0 +1,103 @@
+body {
+background-color: rgb(255, 247, 247)
+}
+
+header {
+    background-color: rgb(206, 206, 235);
+    height: 10vh;
+    color: ivory;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: ivory;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+a {
+    color: ivory;
+    text-decoration: none;
+}
+
+/* div {
+    border: 2px solid black; // for a more visual view where your divs are.
+} */
+
+#main {
+    background-color: black;
+    color: rgb(255, 206, 116);
+    font-size: 10em;
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.mintBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.mintBoxes div {
+    background-color: rgb(162, 224, 240);
+    height: 25vh;
+    width: 15vw;
+    border-radius: 10%;
+}
+
+.orangeBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    /* border: 2px solid black; */
+    width: 100vw;
+    /* margin-left: 225px; */
+}
+
+.orangeBoxes div {
+    background-color: orange;
+    height: 30vh;
+    width: 35vw;
+}
+
+#oBox1 {
+    margin-right: 0px;
+}
+
+#oBox2 {
+    /* border: 2px solid black; */
+    margin-left: 0px;
+}
+
+#text {
+    background-color: rgb(252, 252, 252);
+    width: 20vw;
+    text-align: center;
+    border: 1 px solid black;
+    margin-top: 5vh;
+    margin-left: 15vw;
+}
+
+#image {
+    margin-top: 5vh;
+    margin-left: 32vw;
+    margin-bottom: 5vh;
+}
+
+footer {
+    background-color: rgb(92, 75, 124);
+    height: 100px;
+}
+
+.bottomHtml {
+    display: flex;
+}
